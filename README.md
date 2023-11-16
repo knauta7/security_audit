@@ -1,2 +1,211 @@
-# security_audit
- 
+<h1>Security Audit</h1>
+
+<h2>Description</h2>
+This project scenario (from the Google Cybersecurity Certificate) will demonstrate my role in conducting an internal security audit for a company called Botium Toys.
+<br><br>
+<i>Disclaimer: Botium Toys is a fictional company.</i>
+<br />
+
+
+<h2>Scenario</h2>
+
+Botium Toys is a small U.S. business that develops and sells toys. The business has a single physical location. However, its online presence has grown, attracting customers in the U.S. and abroad. Their information technology (IT) department is under increasing pressure to support their online market worldwide.<br><br>
+The manager of the IT department has decided that an internal IT audit needs to be conducted. She expresses concerns about not having a solidified plan of action to ensure business continuity and compliance, as the business grows. She believes an internal audit can help better secure the company’s infrastructure and help them identify and mitigate potential risks, threats, or vulnerabilities to critical assets. The manager is also interested in ensuring that they comply with regulations related to accepting online payments and conducting business in the European Union (E.U.).<br><br>
+The IT manager starts by implementing the National Institute of Standards and Technology Cybersecurity Framework (NIST CSF), establishing an audit scope and goals, and completing a risk assessment. The goal of the audit is to provide an overview of the risks the company might experience due to the current state of their security posture. The IT manager wants to use the audit findings as evidence to obtain approval to expand his department.<br><br>
+My task is to review the IT manager’s scope, goals, and risk assessment. Then, perform an internal audit to complete a controls assessment and compliance checklist. 
+
+- <b>[BOTIUM TOYS: AUDIT SCOPE AND GOALS](https://drive.google.com/file/d/1vJSe_2CyXUg03pfYNKlSOnBN0h73U-20/view?usp=drive_link)</b>
+- <b>[BOTIUM TOYS: RISK ASSESSMENT](https://drive.google.com/file/d/1ScpKZfqXjSgSfK6fsFlcR6w_cQBiyG8N/view?usp=drive_link)</b><br><br><br>
+
+Email from the IT manager:<br><br>
+<i>Hello!<br>
+I have completed the audit scope and goals, as well as a risk assessment. At a high level, the main goals and risks are as follows:<br><br>
+<b>Goals:</b><br>
+-Improve Botium Toys’ current security posture by aligning to industry best practices (e.g., adhere to the NIST CSF, implement concept of least permissions)<br>
+-Provide mitigation recommendations (i.e., controls, policies, documentation), based on current risks<br>
+-Identify compliance regulations Botium Toys must adhere to, primarily based on where we conduct business and how we accept payments<br>
+-To review the full report, read the <b>BOTIUM TOYS: AUDIT SCOPE AND GOALS</b> document<br><br>
+<b>Risks:</b><br>
+-Inadequate management of assets<br>
+-Proper controls are not in place<br>
+-May not be compliant with U.S. and international regulations and guidelines<br>
+-Current risk score is 8/10 (high), due to a lack of controls and adherence to compliance regulations and standards<br>
+-To review the complete list of assets and risks, read the <b>BOTIUM TOYS: RISK ASSESSMENT</b> document<br><br>
+Thank you,<br>
+Botium Toys IT Manager</i><br><br>
+
+
+<h2>Controls Assessment </h2>
+
+<table>
+  <tr>
+  <tr><center><b>Administrative Control</b></center></tr><tr>
+    <th><th><th><th>
+  </tr>
+  <tr>
+    <th>Control Name</th>
+    <th>Control type and explanation</th>
+    <th>Needs to be implemented (X)</th>
+    <th>Priority</th>
+  </tr>
+  <tr>
+    <td>Least Privilege</td>
+    <td>Preventative; reduces risk by making sure vendors and non-authorized staff only have access to the assets/data they need to do their jobs</td>
+    <td>X</td>
+    <td>high</td>
+  </tr>
+  <tr>
+    <td>Disaster recovery plans</td>
+    <td>Corrective; business continuity to ensure systems are able to run in the even of an incident/there is limited to no loss of productivity downtime/impact to system components, including: computer room environment (air conditioning, power supply, etc.); hardware (servers, employee equipment); connectivity (internal network, wireless); applications (email, electronic data); data and restoration</td>
+    <td>X</td>
+    <td>high</td>
+  </tr>
+   <tr>
+    <td>Password policies</td>
+    <td>Preventative; establish password strength rules to improve security/reduce likelihood of account compromise through brute force or dictionary attack techniques</td>
+    <td>X</td>
+    <td>high</td>
+  </tr>
+     <tr>
+    <td>Access control policies</td>
+    <td>Preventative; increase confidentiality and integrity of data</td>
+    <td>X</td>
+    <td>high</td>
+  </tr>
+   <tr>
+    <td>Account management policies</td>
+    <td>Preventative; reduce attack surface and limit overall impact from disgruntled/former employees</td>
+    <td>X</td>
+    <td>medium/high</td>
+  </tr>
+     <tr>
+    <td>Separation of duties</td>
+    <td>Preventative; ensure no one has so much access that they can abuse the system for personal gain</td>
+    <td>X</td>
+    <td>high</td>
+  </tr>
+</table><br>
+<table>
+  <tr>
+  <tr><center><b>Technical Controls</b></center></tr><tr>
+    <th><th><th><th>
+  </tr>
+  <tr>
+    <th>Control Name</th>
+    <th>Control type and explanation</th>
+    <th>Needs to be implemented (X)</th>
+    <th>Priority</th>
+  </tr>
+  <tr>
+    <td>Firewall</td>
+    <td>Preventative; firewalls are already in place to filter unwanted/malicious traffic from entering internal network</td>
+    <td>X</td>
+    <td>high</td>
+  </tr>
+  <tr>
+    <td>Intrusion Detection System (IDS)</td>
+    <td>Detective; allows IT team to identify possible intrusions (e.g., anomalous traffic) quickly</td>
+    <td>X</td>
+    <td>high</td>
+  </tr>
+   <tr>
+    <td>Encryption</td>
+    <td>Deterrent; makes confidential information/data more secure (e.g., website payment transactions)</td>
+    <td>X</td>
+    <td>medium/high</td>
+  </tr>
+     <tr>
+    <td>Backups</td>
+    <td>Corrective; supports ongoing productivity in the case of an event; aligns to the disaster recovery plan</td>
+    <td>X</td>
+    <td>high</td>
+  </tr>
+   <tr>
+    <td>Password management system</td>
+    <td>Corrective; password recovery, reset, lock out notifications</td>
+    <td>X</td>
+    <td>medium/high</td>
+  </tr>
+     <tr>
+    <td>Antivirus (AV) software</td>
+    <td>Corrective; detect and quarantine known threats</td>
+    <td>X</td>
+    <td>high</td>
+  </tr>
+       <tr>
+    <td>Manual monitoring, maintenance, and intervention</td>
+    <td>Preventative/corrective; required for legacy systems to identify and mitigate potential threats, risks, and vulnerabilities</td>
+    <td>X</td>
+    <td>high</td>
+  </tr>
+</table>
+<table>
+  <tr>
+  <tr><center><b>Physical Controls</b></center></tr><tr>
+    <th><th><th><th>
+  </tr>
+  <tr>
+    <th>Control Name</th>
+    <th>Control type and explanation</th>
+    <th>Needs to be implemented (X)</th>
+    <th>Priority</th>
+  </tr>
+  <tr>
+    <td>Time-controlled safe</td>
+    <td>Deterrent; reduce attack surface/impact of physical threats</td>
+    <td>X</td>
+    <td>low/medium</td>
+  </tr>
+  <tr>
+    <td>Adequate lighting</td>
+    <td>Deterrent; limit "hiding" places to deter threats</td>
+    <td>X</td>
+    <td>medium/low</td>
+  </tr>
+   <tr>
+    <td>Closed-circuit television (CCTV) surveillance</td>
+    <td>Preventative/detective; can reduce risk of certain events; can be used after event for investigation</td>
+    <td>X</td>
+    <td>medium/high</td>
+  </tr>
+     <tr>
+    <td>Locking cabinets (for network gear)</td>
+    <td>Preventative; increase integrity by preventing unauthorized personnel/individuals from physically accessing/modifying network infrastructure gear</td>
+    <td>X</td>
+    <td>medium</td>
+  </tr>
+   <tr>
+    <td>Signage indicating alarm service provider</td>
+    <td>Deterrent; makes the likelihood of a successful attack seem low</td>
+    <td>X</td>
+    <td>low</td>
+  </tr>
+     <tr>
+    <td>Locks</td>
+    <td>Preventative; physical and digital assets are more secure</td>
+    <td>X</td>
+    <td>high</td>
+  </tr>
+       <tr>
+    <td>Fire detection and prevention (fire alarm, sprinkler systems, etc.)</td>
+    <td>Detective/Preventative; detect fire in the toy store's physical location to prevent damage to inventory, servers, etc.</td>
+    <td>X</td>
+    <td>medium/low</td>
+  </tr>
+</table>
+
+
+<h2>Compliance Checklist</h2>
+
+<h2>Stakeholder Memorandum</h2>
+
+
+<!--
+ ```diff
+- text in red
++ text in green
+! text in orange
+# text in gray
+@@ text in purple (and bold)@@
+```
+--!>
