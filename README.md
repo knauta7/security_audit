@@ -37,7 +37,7 @@ Botium Toys IT Manager</i><br><br>
 
 <h2>Controls Assessment </h2>
 
-Current assets<br><br>
+<b>Current assets</b><br><br>
 Assets managed by the IT Department include:<br>
 - On-premises equipment for in-office business needs
 - Employee equipment: end-user devices (desktops/laptops, smartphones), remote workstations, headsets, cables, keyboards, mice, docking stations, surveillance cameras, etc.
@@ -209,32 +209,27 @@ Assets managed by the IT Department include:<br>
 
 <h2>Compliance Checklist</h2>
   <div>
-    <input type="checkbox" id="The Federal Energy Regulatory Commission - North American Electric Reliability Corporation (FERC-NERC)" name="The Federal Energy Regulatory Commission - North American Electric Reliability Corporation (FERC-NERC)" />
-    <label for="The Federal Energy Regulatory Commission - North American Electric Reliability Corporation (FERC-NERC)"><b>The Federal Energy Regulatory Commission - North American Electric Reliability Corporation (FERC-NERC)</b></label><br><br>
+    <input type="checkbox"><b>The Federal Energy Regulatory Commission - North American Electric Reliability Corporation (FERC-NERC)</b></label><br>
     The FERC-NERC regulation applies to organizations that work with electricity or that are involved with the U.S. and North American power grid. Organizations have an obligation to prepare for, mitigate, and report any potential security incident that can negatively affect the power grid. Organizations are legally required to adhere to the Critical Infrastructure Protection Reliability Standards (CIP) defined by the FERC. <br><br>
     <b>Explanation:</b> NA<br><br><br>
   </div>
   <div>
-    <input type="checkbox" id="General Data Protection Regulation (GDPR)" name="General Data Protection Regulation (GDPR)" checked />
-    <label for="General Data Protection Regulation (GDPR)"><b>General Data Protection Regulation (GDPR)</b></label><br><br>
+    <input type="checkbox" checked><b>General Data Protection Regulation (GDPR)</b></label><br>
     GDPR is a European Union (E.U.) general data regulation that protects the processing of E.U. citizens’ data and their right to privacy in and out of E.U. territory. Additionally, if a breach occurs and a E.U. citizen’s data is compromised, they must be informed within 72 hours of the incident.<br><br>
     <b>Explanation:</b> Botium Toys needs to adhere to GDPR because they conduct business and collect personal information from people worldwide, including the E.U.<br><br><br>
   </div>
  <div>
-    <input type="checkbox" id="Payment Card Industry Data Security Standard (PCI DSS)" name="Payment Card Industry Data Security Standard (PCI DSS)" checked />
-    <label for="Payment Card Industry Data Security Standard (PCI DSS)"><b>Payment Card Industry Data Security Standard (PCI DSS)</b></label><br><br>
+    <input type="checkbox" checked><b>Payment Card Industry Data Security Standard (PCI DSS)</b></label><br>
     PCI DSS is an international security standard meant to ensure that organizations storing, accepting, processing, and transmitting credit card information do so in a secure environment. <br><br>
     <b>Explanation:</b> Botiuim Toys needs to adhere to PCI DSS for the protection of the organizations storing, accepting, processing, and transmitting of credit card information.<br><br><br>
   </div>
  <div>
-    <input type="checkbox" id="The Health Insurance Portability and Accountability Act (HIPAA)" name="The Health Insurance Portability and Accountability Act (HIPAA)" />
-    <label for="The Health Insurance Portability and Accountability Act (HIPAA)"><b>The Health Insurance Portability and Accountability Act (HIPAA)</b></label><br><br>
+    <input type="checkbox"><b>The Health Insurance Portability and Accountability Act (HIPAA)</b></label><br>
     HIPAA is a federal law established in 1996 to protect U.S. patients’ health information. This law prohibits patient information from being shared without their consent. Organizations have a legal obligation to inform patients of a breach. <br><br>
     <b>Explanation:</b> NA<br><br><br>
   </div>
  <div>
-    <input type="checkbox" id="System and Organizations Controls (SOC type 1, SOC type 2)" name="System and Organizations Controls (SOC type 1, SOC type 2)" checked />
-    <label for="System and Organizations Controls (SOC type 1, SOC type 2)"><b>System and Organizations Controls (SOC type 1, SOC type 2)</b></label><br><br>
+    <input type="checkbox" checked><b>System and Organizations Controls (SOC type 1, SOC type 2)</b></label><br>
     The SOC1 and SOC2 are a series of reports that focus on an organization’s user access policies at different organizational levels. They are used to assess an organization’s financial compliance and levels of risk. They also cover confidentiality, privacy, integrity, availability, security, and overall data safety. Control failures in these areas can lead to fraud.<br><br>
     <b>Explanation:</b> Botium Toys needs to establish and enforce appropriate user access for internal and external (third party vendor) personnel to mitigate risk and ensure data safety.<br><br><br>
   </div>
