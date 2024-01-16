@@ -1,7 +1,7 @@
 <h1>Security Audit</h1>
 
 <h2>Description</h2>
-This project scenario (from the Google Cybersecurity Certificate) will demonstrate my role in conducting an internal security audit for a company called Botium Toys.
+This activity will demonstrate my role in conducting an internal security audit for a company called Botium Toys.
 <br><br>
 <i>Disclaimer: Botium Toys is a fictional company.</i>
 <br />
@@ -275,11 +275,13 @@ The controls and policies that need to be addressed in the future include:<br>
 With its growing popularity of Botium Toys, it is essential that their scope and goals are looked at seriously and taken with immediate action to ensure that their customers and employees are protected from threats and risks. It’s recommended to comply with the PCI DSS compliance due to the critical findings that were found, as well as GDPR since the company accepts online payments for its worldwide online store, which includes the E.U. It’s important to also have disaster recovery plans and backups in place to ensure continuity of the company’s business. The development of the proper procedures and policies should be enforced with SOC1 and SOC2 guidance which relates to user access policies and data safety, and would therefore tackle one of their goals of adapting to the concept of least permissions. Integrating IDS and AV software, as well as encryption, into the current systems will support our ability to identify and mitigate potential risks. Installing locks and CCTV at the company’s physical location will help in securing their physical assets and monitor for any potential threats in the future. Though it’s a lower priority, having adequate lighting, installing a time-controlled safe, providing clear signage, and updating the fire detection systems will all help improve the security posture of Botium Toys.
 
 
-
 <!--
- ```This Security Audit Repository includes the following:
+ ```
+ This Security Audit Repository contains the following:
  Controls Assessment
  Compliance Checklist
  Stakeholders Memorandum
+
+ The scenario listed above is taken from one of the Activities sections provided by the Google Career Cybersecurity Certificate.
 ```
 --!>
