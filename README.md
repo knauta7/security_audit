@@ -242,46 +242,44 @@ Please review the following information regarding the Botium Toys internal audit
 
 <b>Scope:</b><br>
 The following systems are in scope: accounting, end point detection, firewalls, intrusion detection system, SIEM tool. The systems will be evaluated for:<br>
--Current user permissions<br>
--Current implemented controls<br>
--Current procedures and protocols<br>
+<li>Current user permissions</li>
+<li>Current implemented controls</li>
+<li>Current procedures and protocols</li><br>
 Ensure current user permissions, controls, procedures, and protocols in place align with PCI DSS and GDPR compliance requirements.<br>
 Ensure current technology is accounted for both hardware and system access.<br><br>
 <b>Goals:</b><br>
 The goals for Botium Toys pertained to the following:<br>
--To adhere to the National Institute of Standards and Technology Cybersecurity Framework (NIST CSF)<br>
--Establish a better process for their systems to ensure they are compliant<br>
--Fortify system controls<br>
--Implement the concept of least permissions when it comes to user credential management<br>
--Establish their policies and procedures, including their playbooks<br>
--Ensure they are meeting compliance requirements<br><br>
+<li>To adhere to the National Institute of Standards and Technology Cybersecurity Framework (NIST CSF)</li>
+<li>Establish a better process for their systems to ensure they are compliant</li>
+<li>Fortify system controls</li>
+<li>Implement the concept of least permissions when it comes to user credential management</li>
+<li>Establish their policies and procedures, including their playbooks</li>
+<li>Ensure they are meeting compliance requirements</li><br>
 <b>Critical findings:</b> (must be addressed immediately):<br>
--Control of least privilege and separation of duties<br>
--Disaster recovery plans<br>
--Password policies, access control policies, and account management policies<br>
--Intrusion detection system (IDS)<br>
--Encryption, backups, and password management system<br>
--Antivirus (AV) software<br>
--Manual monitoring, maintenance, and intervention<br>
--Closed-circuit tv (CCTV) surveillance<br>
--Fire detection and prevention systems<br><br>
+<li>Control of least privilege and separation of duties</li>
+<li>Disaster recovery plans</li>
+<li>Password policies, access control policies, and account management policies</li>
+<li>Intrusion detection system (IDS)</li>
+<li>Encryption, backups, and password management system</li>
+<li>Antivirus (AV) software</li>
+<li>Manual monitoring, maintenance, and intervention</li>
+<li>Closed-circuit tv (CCTV) surveillance</li>
+<li>Fire detection and prevention systems</li><br>
 <b>Findings</b> (should be addressed, but no immediate need):<br>
 The controls and policies that need to be addressed in the future include:<br>
--Time-controlled safe<br>
--Adequate lighting<br>
--Locking cabinets (for network gear)<br>
--Signage indicating alarm service provider<br><br>
+<li>Time-controlled safe</li>
+<li>Adequate lighting</li>
+<li>Locking cabinets (for network gear)</li>
+<li>Signage indicating alarm service provider</li><br>
 <b>Summary/Recommendations:</b><br>
 With its growing popularity of Botium Toys, it is essential that their scope and goals are looked at seriously and taken with immediate action to ensure that their customers and employees are protected from threats and risks. It’s recommended to comply with the PCI DSS compliance due to the critical findings that were found, as well as GDPR since the company accepts online payments for its worldwide online store, which includes the E.U. It’s important to also have disaster recovery plans and backups in place to ensure continuity of the company’s business. The development of the proper procedures and policies should be enforced with SOC1 and SOC2 guidance which relates to user access policies and data safety, and would therefore tackle one of their goals of adapting to the concept of least permissions. Integrating IDS and AV software, as well as encryption, into the current systems will support our ability to identify and mitigate potential risks. Installing locks and CCTV at the company’s physical location will help in securing their physical assets and monitor for any potential threats in the future. Though it’s a lower priority, having adequate lighting, installing a time-controlled safe, providing clear signage, and updating the fire detection systems will all help improve the security posture of Botium Toys.
 
 
 
 <!--
- ```diff
-- text in red
-+ text in green
-! text in orange
-# text in gray
-@@ text in purple (and bold)@@
+ ```This Security Audit Repository includes the following:
+ Controls Assessment
+ Compliance Checklist
+ Stakeholders Memorandum
 ```
 --!>
